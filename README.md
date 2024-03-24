@@ -10,7 +10,7 @@ Learn how to get started with the MotorPH Payroll System, including hardware and
 
 ## Using the Payroll System
 
-Discover how to use the MotorPH Payroll System effectively, covering topics such as secure login procedures, salary and deduction calculations, and leave applications.
+Discover how to use the MotorPH Payroll System effectively, covering topics such as secure login procedures, salary and deduction calculations, leave, and overtime applications.
 
 ## Technical Information
 
