@@ -1,23 +1,5 @@
 # MotorPH Payroll System Documentation
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-   - User Roles
-   - Navigating The User Guide
-2. [Getting Started](#getting-started)
-   - Hardware Prerequisites
-   - Software Prerequisites
-   - Accessing The System
-3. [Using the Payroll System](#using-the-payroll-system)
-   - Secure Login Procedures
-   - Salary and Deduction Calculations
-   - Leave Applications
-4. [Technical Information](#technical-information)
-   - Use Case Diagram
-   - Class Diagram
-   - Testing
-
 ## Introduction
 
 This section provides an overview of the MotorPH Payroll System, including user roles and guidance on navigating the user guide.
