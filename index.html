@@ -11,6 +11,39 @@
 
     <title>MotorPH Payroll System Documentation</title>
 
+    <style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        opacity: 80%;
+    }
+
+    .dropdown-toggle {
+        padding: 8px 12px;
+        cursor: pointer;
+        transition: 0.3s ease; 
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        padding: 8px 0;
+        margin-top: 2px;
+        list-style-type: none;
+        opacity: 0;
+        transition: opacity 0.5s ease; 
+    }
+
+    .dropdown-menu li {
+        padding: 8px 12px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+    }    
+    </style>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -34,17 +67,38 @@
             <!-- Collect the nav links and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#introduction">Introduction</a>
+                    <li class="nav-item dropdown">
+                        <a class="page-scroll dropdown-toggle" href="#introduction" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Introduction</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="page-scroll" href="#roles" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ User Roles</a></li>
+                                <li><a class="page-scroll" href="#guide" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Navigating the User Guide</a></li>
+                            </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#getting_started">Getting Started</a>
+                    <li class="nav-item dropdown">
+                        <a class="page-scroll" href="#getting_started" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Getting Started</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="page-scroll" href="#hardware" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Hardware Prerequisites</a></li>
+                                <li><a class="page-scroll" href="#software" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Software Prerequisites</a></li>
+                                <li><a class="page-scroll" href="#access" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Accessing the System</a></li>
+                            </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#usage">Usage</a>
+                    <li class="nav-item dropdown">
+                        <a class="page-scroll" href="#usage" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usage</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="page-scroll" href="#login_procedures" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Secure Login Procedures</a></li>
+                                <li><a class="page-scroll" href="#employee_access" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Employee-Based Access</a></li>
+                                <li><a class="page-scroll" href="#hr_access" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ HR-Based Access</a></li>
+                                <li><a class="page-scroll" href="#payroll_access" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Payroll-Based Access </a></li>
+                                <li><a class="page-scroll" href="#it_access" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ IT-Based Access</a></li>
+                            </ul>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#technical">Technical Information</a>
+                    <li class="nav-item dropdown">
+                        <a class="page-scroll" href="#technical" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical Information</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="page-scroll" href="#use_case" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Use Case Diagram</a></li>
+                                <li><a class="page-scroll" href="#class" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Class Diagram</a></li>
+                                <li><a class="page-scroll" href="#testing" style="font-family: sans-serif; color: #223B4B; font-size: 15px;">➔ Testing</a></li>
+                            </ul>
                     </li>
                      <li>
                         <a class="page-scroll" href="#team">Team</a>
